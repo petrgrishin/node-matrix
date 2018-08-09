@@ -1,13 +1,13 @@
 {
-  "name": "node-matrix",
+  "name": "node-matrix-object",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "npx mocha *.test.js"
   },
-  "repository": "petrgrishin/node-matrix",
-  "homepage": "https://github.com/petrgrishin/node-matrix",
+  "repository": "petrgrishin/node-matrix-object",
+  "homepage": "https://github.com/petrgrishin/node-matrix-object",
   "author": "Petr Grishin",
   "license": "MIT",
   "dependencies": {},
