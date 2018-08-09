@@ -1,2 +1,2 @@
-# node-matrix
+# node-matrix-object
 
