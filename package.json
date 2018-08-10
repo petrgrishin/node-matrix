@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "scripts": {
-    "test": "npx mocha *.test.js"
+    "test": "mocha *.test.js",
+    "test:cover": "nyc mocha *.test.js",
+    "test:cover:report": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": "petrgrishin/node-matrix-object",
   "homepage": "https://github.com/petrgrishin/node-matrix-object",
@@ -12,7 +17,9 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
+    "coveralls": "^3.0.2",
     "mocha": "^5.2.0",
+    "nyc": "^12.0.2",
     "should": "^13.2.3"
   }
 }
